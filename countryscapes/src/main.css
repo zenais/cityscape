@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#city-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+#city-scrollbar {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
